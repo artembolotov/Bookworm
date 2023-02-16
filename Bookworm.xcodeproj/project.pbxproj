@@ -11,6 +11,8 @@
 		ABB2050D299E09F9004E7072 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB2050C299E09F9004E7072 /* ContentView.swift */; };
 		ABB2050F299E09FC004E7072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB2050E299E09FC004E7072 /* Assets.xcassets */; };
 		ABB20512299E09FC004E7072 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB20511299E09FC004E7072 /* Preview Assets.xcassets */; };
+		ABB2051A299E571B004E7072 /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABB20518299E571B004E7072 /* Bookworm.xcdatamodeld */; };
+		ABB2051C299E579D004E7072 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB2051B299E579D004E7072 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		ABB2050C299E09F9004E7072 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ABB2050E299E09FC004E7072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABB20511299E09FC004E7072 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABB20519299E571B004E7072 /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
+		ABB2051B299E579D004E7072 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				ABB2050A299E09F9004E7072 /* BookwormApp.swift */,
 				ABB2050C299E09F9004E7072 /* ContentView.swift */,
+				ABB20518299E571B004E7072 /* Bookworm.xcdatamodeld */,
+				ABB2051B299E579D004E7072 /* DataController.swift */,
 				ABB2050E299E09FC004E7072 /* Assets.xcassets */,
 				ABB20510299E09FC004E7072 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABB2050D299E09F9004E7072 /* ContentView.swift in Sources */,
+				ABB2051C299E579D004E7072 /* DataController.swift in Sources */,
+				ABB2051A299E571B004E7072 /* Bookworm.xcdatamodeld in Sources */,
 				ABB2050B299E09F9004E7072 /* BookwormApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +347,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ABB20518299E571B004E7072 /* Bookworm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ABB20519299E571B004E7072 /* Bookworm.xcdatamodel */,
+			);
+			currentVersion = ABB20519299E571B004E7072 /* Bookworm.xcdatamodel */;
+			path = Bookworm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = ABB204FF299E09F9004E7072 /* Project object */;
 }
