@@ -17,6 +17,7 @@
 		ABB20520299EA920004E7072 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB2051F299EA920004E7072 /* RatingView.swift */; };
 		ABB20522299EAE36004E7072 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB20521299EAE36004E7072 /* EmojiRatingView.swift */; };
 		ABB20524299F433E004E7072 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB20523299F433E004E7072 /* DetailView.swift */; };
+		ABB2052629A02D1A004E7072 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB2052529A02D1A004E7072 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		ABB2051F299EA920004E7072 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		ABB20521299EAE36004E7072 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 		ABB20523299F433E004E7072 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		ABB2052529A02D1A004E7072 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				ABB2051F299EA920004E7072 /* RatingView.swift */,
 				ABB2050E299E09FC004E7072 /* Assets.xcassets */,
 				ABB20523299F433E004E7072 /* DetailView.swift */,
+				ABB2052529A02D1A004E7072 /* Extensions.swift */,
 				ABB20510299E09FC004E7072 /* Preview Content */,
 			);
 			path = Bookworm;
@@ -159,6 +162,7 @@
 				ABB20524299F433E004E7072 /* DetailView.swift in Sources */,
 				ABB2051C299E579D004E7072 /* DataController.swift in Sources */,
 				ABB20522299EAE36004E7072 /* EmojiRatingView.swift in Sources */,
+				ABB2052629A02D1A004E7072 /* Extensions.swift in Sources */,
 				ABB2051A299E571B004E7072 /* Bookworm.xcdatamodeld in Sources */,
 				ABB20520299EA920004E7072 /* RatingView.swift in Sources */,
 				ABB2050B299E09F9004E7072 /* BookwormApp.swift in Sources */,
