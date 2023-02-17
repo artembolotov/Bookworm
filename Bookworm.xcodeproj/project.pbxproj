@@ -13,6 +13,10 @@
 		ABB20512299E09FC004E7072 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB20511299E09FC004E7072 /* Preview Assets.xcassets */; };
 		ABB2051A299E571B004E7072 /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABB20518299E571B004E7072 /* Bookworm.xcdatamodeld */; };
 		ABB2051C299E579D004E7072 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB2051B299E579D004E7072 /* DataController.swift */; };
+		ABB2051E299E8423004E7072 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB2051D299E8423004E7072 /* AddBookView.swift */; };
+		ABB20520299EA920004E7072 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB2051F299EA920004E7072 /* RatingView.swift */; };
+		ABB20522299EAE36004E7072 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB20521299EAE36004E7072 /* EmojiRatingView.swift */; };
+		ABB20524299F433E004E7072 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB20523299F433E004E7072 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		ABB20511299E09FC004E7072 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ABB20519299E571B004E7072 /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
 		ABB2051B299E579D004E7072 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		ABB2051D299E8423004E7072 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		ABB2051F299EA920004E7072 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		ABB20521299EAE36004E7072 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		ABB20523299F433E004E7072 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +67,11 @@
 				ABB2050C299E09F9004E7072 /* ContentView.swift */,
 				ABB20518299E571B004E7072 /* Bookworm.xcdatamodeld */,
 				ABB2051B299E579D004E7072 /* DataController.swift */,
+				ABB2051D299E8423004E7072 /* AddBookView.swift */,
+				ABB20521299EAE36004E7072 /* EmojiRatingView.swift */,
+				ABB2051F299EA920004E7072 /* RatingView.swift */,
 				ABB2050E299E09FC004E7072 /* Assets.xcassets */,
+				ABB20523299F433E004E7072 /* DetailView.swift */,
 				ABB20510299E09FC004E7072 /* Preview Content */,
 			);
 			path = Bookworm;
@@ -144,9 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABB2050D299E09F9004E7072 /* ContentView.swift in Sources */,
+				ABB20524299F433E004E7072 /* DetailView.swift in Sources */,
 				ABB2051C299E579D004E7072 /* DataController.swift in Sources */,
+				ABB20522299EAE36004E7072 /* EmojiRatingView.swift in Sources */,
 				ABB2051A299E571B004E7072 /* Bookworm.xcdatamodeld in Sources */,
+				ABB20520299EA920004E7072 /* RatingView.swift in Sources */,
 				ABB2050B299E09F9004E7072 /* BookwormApp.swift in Sources */,
+				ABB2051E299E8423004E7072 /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
